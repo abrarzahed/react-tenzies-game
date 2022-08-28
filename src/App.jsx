@@ -91,6 +91,12 @@ export default function App() {
       <button className="roll-dice" onClick={rollUnhealedDice}>
         {tenzies ? "Reset" : " Roll"}
       </button>
+
+      <div className="footer">
+        <a href="mailto:abrarzahed6986@gmail.com">
+          <small>✉ abrarzahed6986@gmail.com</small>
+        </a>
+      </div>
     </main>
   );
 }
